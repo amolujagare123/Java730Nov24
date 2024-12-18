@@ -2,9 +2,9 @@ package ClassNConstructors.pack1;
 
 public class Java1 {
 
-  public  int a;
-   private double d;
-    char c;
+    public  int a;
+    private double d;
+    protected char c;
     String str;
 
     void display()
