@@ -4,6 +4,16 @@ public class Employee {
 
     int salary = 35000;
 
+    Employee()
+    {
+        System.out.println("Employee constructor");
+    }
+    Employee(int a)
+    {
+        salary = salary + a;
+        System.out.println("new Salary="+salary);
+        System.out.println("Employee constructor");
+    }
     void empWork()
     {
         System.out.println("emp Work");
@@ -13,9 +23,13 @@ public class Employee {
 class Programmer extends Employee
 {
     int bonus = 25000;
-  //  int salary = 45000;
+ //   int salary = 45000;
 
-
+    Programmer()
+    {
+        super(45);
+        System.out.println("Programmer constructor");
+    }
 
     void programmerWork()
     {
