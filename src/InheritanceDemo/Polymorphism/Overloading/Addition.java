@@ -1,4 +1,4 @@
-package InheritanceDemo.Polymorphism;
+package InheritanceDemo.Polymorphism.Overloading;
 
 public class Addition {
 
