@@ -2,19 +2,18 @@ package CollectionsDemo.ArrayListDemo;
 
 import java.util.ArrayList;
 
-public class ArrayListDemo1 {
+public class ArrayListDemo2 {
 
     public static void main(String[] args) {
 
-        ArrayList al = new ArrayList<>();
-        al.add(12);
+        ArrayList<String> al = new ArrayList<>();
+       /* al.add(12);
         al.add(22);
         al.add(13);
         al.add(42);
-        al.add(15);
-        al.add(1.5);
-        al.add('a');
-        al.add("amol1");
+        al.add(15);*/
+
+       al.add("amol1");
         al.add("amol2");
         al.add("amol3");
         al.add("amol4");
@@ -29,7 +28,7 @@ public class ArrayListDemo1 {
             System.out.println(al.get(i));
 
         System.out.println("printing elements using for each loop");
-        for(Object o:al)
+        for(String o:al)
             System.out.println(o);
     }
 }
