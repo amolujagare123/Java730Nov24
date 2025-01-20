@@ -1,6 +1,7 @@
 package CollectionsDemo.ArrayListDemo;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListDemo1 {
 
@@ -31,5 +32,12 @@ public class ArrayListDemo1 {
         System.out.println("printing elements using for each loop");
         for(Object o:al)
             System.out.println(o);
+
+        System.out.println("printing elements using iterator");
+
+        Iterator itr = al.iterator();
+        while (itr.hasNext())
+            System.out.println(itr.next());
+
     }
 }
